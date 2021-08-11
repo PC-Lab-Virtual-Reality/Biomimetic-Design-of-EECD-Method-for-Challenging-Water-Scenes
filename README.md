@@ -34,13 +34,13 @@ Besides, we propose an image-translation framework that translates simulated ima
 Simulated Multi-challenge Sequence is a water-scene dataset designed to design and evaluate a variety of computer vision models for change detection.
 We provide one [.rar] archive per type of data as described below. Our indexes always start from 000001. In the following,
 
-Simulated Multi-challenge Sequences_rgb_2021: Each area is simply a folder in the format: The compressed file contains the original image.
+WSCD_dataset_rbg_2021: Each area is simply a folder in the format: The compressed file contains the original image.
 
-[Simulated Multi-challenge Sequence_rgb_2021.rar](https://drive.google.com/file/d/1CtYW_VI5qoMACBCQtydUiQPQfHmwnvbF/view?usp=sharing)
+[WSCD_dataset_rbg_2021.rar](https://drive.google.com/file/d/1CtYW_VI5qoMACBCQtydUiQPQfHmwnvbF/view?usp=sharing)
 
-Simulated Multi-challenge Sequences_gt_2021: The compressed file contains the ground truth of object detection. The per-pixel segmentation ground truth is encoded as per-frame .png files (standard 8-bit precision per channel).
+WSCD_dataset_gt_2021: The compressed file contains the ground truth of object detection. The per-pixel segmentation ground truth is encoded as per-frame .png files (standard 8-bit precision per channel).
 
-[Simulated Multi-challenge Sequence_gt_2021.rar](https://drive.google.com/file/d/1F4RzxERYATSQoW-nrnaeRVKBmKdja349/view?usp=sharing)
+[WSCD_dataset_gt_2021.rar](https://drive.google.com/file/d/1F4RzxERYATSQoW-nrnaeRVKBmKdja349/view?usp=sharing)
 
 ## Sample images of simulated multi-challenge sequences
 ![image](https://github.com/lx7555/Exploring-Inland-Water-Scene-Generation-for-Change-Detection-Analysis/blob/main/image/fig4.jpg)
