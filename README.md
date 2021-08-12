@@ -2,51 +2,51 @@
 
 ## Abstract
 
-Change detection (CD) is becoming indispensable for unmanned aerial vehicles (UAV),
-especially in the domain of water landing and aerial observation. However, even the most
-advanced models require large amounts of data for model training and testing. Therefore, a
-sufficient variety of labeled images with different imaging conditions are needed. In this paper,
-we present a cloning method to simulate inland-water scene and collect automatically labeled 
-multi-challenge sequences. The simulated dataset consists of two subsets (normal and aerial image
-categories). The normal subset includes six challenges that test the effects of dynamic background,
-weather, and noise on change detection models. The aerial imagery subset provides changes in
-building, vegetation, and ocean color for remote sensing detection. Then, we propose an image-
-translation framework that translates simulated images to synthetic images. This framework 10
-uses shared parameters (encoder and generator) and 22 × 22 receptive fields (discriminator) to
-generate realistic synthetic images as model training sets. The experimental results indicate that: 1)
-different imaging challenges affect the performance of change detection models; 2) compared with
-simulated images, synthetic images can effectively improve the accuracy of supervised models.
+The key challenge of unmanned aerial vehicles (UAV) to detect objects in complex
+water scenes is how to efficiently enhance the performance of change detection (CD).
+Here, a novel bionic computational method is proposed to improve overall metrics
+by using retina, pecten structure and lateral inhibition mechanisms. These structures
+and characteristics of eagle eyes make it easier for our model to detect camouflaged
+foreground objects and ignore dynamic background variations. Then, we proposed
+an efficient cloning method and generate a synthetic multi-challenge dataset from real
+world, named “WSCD”, with automatic accurate annotations at pixel-level. Besides,
+we conduct experiments by using WSCD in combination with publicly available real
+water datasets for algorithm evaluation. Through an extensive set of experiments, the
+results indicate that: 1) the eagle eye-based change detection (EECD) model responds
+strongly to object information and suppresses ripple or glare effects interference, which
+helps it to perform best in real or synthetic water scenes. 2) synthetic dataset can
+be used to quantitatively analyze and test different change detection models, where
+illumination and waves still affect the performance of tradition vision systems.
 
 ## Description
-Considering that change detection models have to deal with some challenges of water scenes, we generate various simulated multi-challenge sequences, 
-including Basic, Dynamic Background, Illumination Variations, Bad Weather, Video Noise, and More Moving Objects. Note:
-Each specific sequence is also affected by other challenges, but one challenge is dominant.
-Besides, we propose an image-translation framework that translates simulated images to realistic synthetic images.
+Considering that change detection models have to deal with some challenges in water scenes, we generate various simulated multi-challenge sequences, 
+including Basic, Dynamic Background, Illumination Variations. Note: Each specific sequence is also affected by other challenges, but one challenge is dominant.
+This synthetic dataset is a photo-realistic vision laboratory that validates the performance of different methods.
 
-## The overall framework of the proposed method
-![image](https://github.com/lx7555/Exploring-Inland-Water-Scene-Generation-for-Change-Detection-Analysis/blob/main/image/fig2.jpg)
+## The overall framework of the proposed EECD method
+![image](https://github.com/PC-Lab-Virtual-Reality/Biomimetic-Design-of-EECD-Method-for-Challenging-Water-Scenes/blob/main/Figure/fig1.jpg)
 
 ## Examples of the real, simulated and synthetic dataset
-![image](https://github.com/lx7555/Exploring-Inland-Water-Scene-Generation-for-Change-Detection-Analysis/blob/main/image/fig8.jpg)
+![image](https://github.com/PC-Lab-Virtual-Reality/Biomimetic-Design-of-EECD-Method-for-Challenging-Water-Scenes/blob/main/Figure/fig2.jpg)
 
 
 ## Download
-Simulated Multi-challenge Sequence is a water-scene dataset designed to design and evaluate a variety of computer vision models for change detection.
+The WSCD is a water-scene dataset designed to design and evaluate a variety of computer vision models for change detection.
 We provide one [.rar] archive per type of data as described below. Our indexes always start from 000001. In the following,
 
 WSCD_dataset_rbg_2021: Each area is simply a folder in the format: The compressed file contains the original image.
 
-[WSCD_dataset_rbg_2021.rar](https://drive.google.com/file/d/1CtYW_VI5qoMACBCQtydUiQPQfHmwnvbF/view?usp=sharing)
+[WSCD_dataset_rbg_2021.rar](https://drive.google.com/file/d/1aNI2fUiC0U3NZ_5XAv7qVwIdm2RHrhPX/view?usp=sharing)
 
 WSCD_dataset_gt_2021: The compressed file contains the ground truth of object detection. The per-pixel segmentation ground truth is encoded as per-frame .png files (standard 8-bit precision per channel).
 
-[WSCD_dataset_gt_2021.rar](https://drive.google.com/file/d/1F4RzxERYATSQoW-nrnaeRVKBmKdja349/view?usp=sharing)
+[WSCD_dataset_gt_2021.rar](https://drive.google.com/file/d/1eUqWA3AenOuF58kuySkImw9JeU8HZLoK/view?usp=sharing)
 
-## Sample images of simulated multi-challenge sequences
-![image](https://github.com/lx7555/Exploring-Inland-Water-Scene-Generation-for-Change-Detection-Analysis/blob/main/image/fig4.jpg)
+## Sample images of WSCD sequences
+![image](https://github.com/PC-Lab-Virtual-Reality/Biomimetic-Design-of-EECD-Method-for-Challenging-Water-Scenes/blob/main/Figure/fig3.jpg)
 
-## Examples of change detection results on simulated multi-challenge sequences using different models
-![image](https://github.com/lx7555/Exploring-Inland-Water-Scene-Generation-for-Change-Detection-Analysis/blob/main/image/fig9.jpg)
+## Examples of change detection results on WSCD using different models
+![image](https://github.com/PC-Lab-Virtual-Reality/Biomimetic-Design-of-EECD-Method-for-Challenging-Water-Scenes/blob/main/Figure/fig4.jpg)
 
 ## Citations
 All rights of the Simulated Multi-challenge and Synthetic Dataset are reversed by the Peng Cheng Laboratory. It is free for academic research, and your cooperation with us is appreciated. Feel free to contact us if you have any questions.
