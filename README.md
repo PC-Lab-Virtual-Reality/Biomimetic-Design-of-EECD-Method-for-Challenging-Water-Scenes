@@ -26,7 +26,7 @@ This synthetic dataset is a photo-realistic vision laboratory that validates the
 ## The overall framework of the proposed EECD method
 ![image](https://github.com/PC-Lab-Virtual-Reality/Biomimetic-Design-of-EECD-Method-for-Challenging-Water-Scenes/blob/main/Figure/fig1.jpg)
 
-## Examples of the real, simulated and synthetic dataset
+## Examples of the real and synthetic dataset
 ![image](https://github.com/PC-Lab-Virtual-Reality/Biomimetic-Design-of-EECD-Method-for-Challenging-Water-Scenes/blob/main/Figure/fig2.jpg)
 
 
