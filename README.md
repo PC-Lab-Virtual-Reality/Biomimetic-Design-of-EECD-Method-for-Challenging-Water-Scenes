@@ -49,7 +49,7 @@ WSCD_dataset_gt_2021: The compressed file contains the ground truth of object de
 ![image](https://github.com/PC-Lab-Virtual-Reality/Biomimetic-Design-of-EECD-Method-for-Challenging-Water-Scenes/blob/main/Figure/fig4.jpg)
 
 ## Citations
-All rights of the Simulated Multi-challenge and Synthetic Dataset are reversed by the Peng Cheng Laboratory. It is free for academic research, and your cooperation with us is appreciated. Feel free to contact us if you have any questions.
+All rights of the WSCD Dataset are reversed by the Peng Cheng Laboratory. It is free for academic research, and your cooperation with us is appreciated. Feel free to contact us if you have any questions.
 
 If the Synthetic-Boat-Sequence Dataset is used in your research, please cite the following papers:
 
