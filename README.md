@@ -1,23 +1,5 @@
 # Biomimetic-Design-of-EECD-Method-for-Challenging-Water-Scenes
 
-## Abstract
-
-The key challenge of unmanned aerial vehicles (UAV) to detect objects in complex
-water scenes is how to efficiently enhance the performance of change detection (CD).
-Here, a novel bionic computational method is proposed to improve overall metrics
-by using retina, pecten structure and lateral inhibition mechanisms. These structures
-and characteristics of eagle eyes make it easier for our model to detect camouflaged
-foreground objects and ignore dynamic background variations. Then, we proposed
-an efficient cloning method and generate a synthetic multi-challenge dataset from real
-world, named “WSCD”, with automatic accurate annotations at pixel-level. Besides,
-we conduct experiments by using WSCD in combination with publicly available real
-water datasets for algorithm evaluation. Through an extensive set of experiments, the
-results indicate that: 1) the eagle eye-based change detection (EECD) model responds
-strongly to object information and suppresses ripple or glare effects interference, which
-helps it to perform best in real or synthetic water scenes. 2) synthetic dataset can
-be used to quantitatively analyze and test different change detection models, where
-illumination and waves still affect the performance of tradition vision systems.
-
 ## Description
 Considering that change detection models have to deal with some challenges in water scenes, we generate various simulated multi-challenge sequences, 
 including Basic, Dynamic Background, Illumination Variations. Note: Each specific sequence is also affected by other challenges, but one challenge is dominant.
